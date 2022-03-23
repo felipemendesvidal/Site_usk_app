@@ -1,0 +1,22 @@
+.config-cabecalho{
+    padding: 30px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(232, 232, 232) 50%, rgba(255,255,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    img{max-width: 285px; }
+    .config-txt-cabecalho{ max-width: 50%; margin-left: 10px;  line-height: 1.3em;}
+    .btn_sobre{font-weight: 400; color: $cor_links_claro; font-weight: 600; }
+    .btn_sobre:hover{  text-decoration: underline;transition: 0.9s;}
+
+}
+
+// header chamada princiapl
+.config-chamada{
+    background-color: pink;padding: 30px 0; text-align: center;
+    h4{font-size: 2rem;}
+    small{font-size: 1.3rem;}
+}
