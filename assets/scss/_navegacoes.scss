@@ -1,8 +1,8 @@
 // home
 .config-navegacao-container{padding: 20px 30px ;margin: 0 auto;
-    h3{margin: 20px 15px; font-size: 1.3rem; font-weight: 500; text-transform: uppercase;}
+    h3{margin: 20px 15px; font-size: 1.3rem; font-weight: bold; text-transform: uppercase;}
 }
-.config-bg{ padding: 20px 0; background-color: rgb(241, 241, 241);}
+.config-bg{ padding: 20px 0; background-color: $cor_fundo_quebra;}
 .config-bg-2{ padding: 20px 0;}
 .config-navegacao-principal-items{
     display: flex;flex-wrap: wrap;margin: 0 auto;justify-content: flex-start;align-items: center;
@@ -20,15 +20,13 @@
 
             display: block;font-weight: 500; width: 100%;padding: 10px;color: rgb(224, 224, 224);border-radius: $curvatura-icones 0 0 $curvatura-icones;
 
-            span{display: block;padding: 5px;margin-bottom: 5px;color: #fff;font-weight: bold;
-
-            
-
-            }
+            span{display: block;padding: 5px;margin-bottom: 5px;color: #fff;font-weight: bold;}
         }
-        .bg-ak{background:linear-gradient(253deg, rgba(15,95,166,0.719) 0%, rgba(15,95,166,1) 100%); }
-        .bg-usk-sodas{background: linear-gradient(253deg, rgba(247, 26, 18, 0.719) 0%, rgba(247,26,18,1) 100%);}
-        .bg-compressores{background: linear-gradient(253deg, rgba(50,50,50,719) 0%, rgba(50,50,50,1) 100%);}
-        .bg-ferramentas{background: linear-gradient(253deg, rgba(18,42,65,719) 0%, rgba(18,42,65,1) 100%);}
+        
+        .bg-ak{background:linear-gradient(253deg, rgba(15,95,166,0.719) 0%, rgba(15,95,166,1) 100%); box-shadow: $sombra-secundaria;}
+        .bg-usk-sodas{background: linear-gradient(253deg, rgba(247, 26, 18, 0.719) 0%, rgba(247,26,18,1) 100%);box-shadow: $sombra-secundaria;}
+        .bg-compressores{background: linear-gradient(253deg, rgba(50,50,50,719) 0%, rgba(50,50,50,1) 100%);box-shadow: $sombra-secundaria;}
+        .bg-ferramentas{background: linear-gradient(253deg, rgba(18,42,65,719) 0%, rgba(18,42,65,1) 100%);box-shadow: $sombra-secundaria;}
+        .bg-pneumaticas{background: linear-gradient(90deg, rgba(19,122,69,1) 0%, rgba(19,122,69,0.719) 100%);box-shadow: $sombra-secundaria;}
     }  
 }

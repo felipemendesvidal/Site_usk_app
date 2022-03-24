@@ -3,7 +3,8 @@ $cor_principal: #F2CB05; //amarelo medio
 $cor_principal_clara: #FCD800; // amarelo claro
 $cor_principal_escuro: #8C7503;// amarelo escuro
 $cor_links_claro: #353535;
-$cor_fundo_quebra: #e9e9e9;
+$cor_fundo_quebra: #e5e5e5;
+$gradiente-separador:linear-gradient(90deg, rgba(229,229,229,1) 46%, rgba(255,255,255,0.6979166666666667) 100%);
 
 $cor_usk-soldas:#F71A12;
 $cor_ak-tech-calor:#0F5FA6;
@@ -17,3 +18,4 @@ $tipografia-principal: 'Montserrat', sans-serif;
 
 //sobras
 $sombra-padrao: 0px 0px 8px rgba(0, 0, 0, 0.445);
+$sombra-secundaria: -3px 0px  8px rgba(0, 0, 0, 0.527);
