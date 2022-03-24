@@ -9,7 +9,6 @@
 
     li{ margin: 10px; max-width: 400px; min-height: 220px; text-align: center; border-radius: $curvatura-icones; box-shadow: $sombra-padrao; 
     background-color: #fff; }
-
     img{ max-width: 150px;  display: block; margin: 0 auto; margin: 20px;}
 
     a{
@@ -28,5 +27,7 @@
         .bg-compressores{background: linear-gradient(253deg, rgba(50,50,50,719) 0%, rgba(50,50,50,1) 100%);box-shadow: $sombra-secundaria;}
         .bg-ferramentas{background: linear-gradient(253deg, rgba(18,42,65,719) 0%, rgba(18,42,65,1) 100%);box-shadow: $sombra-secundaria;}
         .bg-pneumaticas{background: linear-gradient(90deg, rgba(19,122,69,1) 0%, rgba(19,122,69,0.719) 100%);box-shadow: $sombra-secundaria;}
+        .bg-bombas{background: linear-gradient(90deg, rgba(29,49,135,1) 0%, rgba(31,58,140,0.719) 100%);box-shadow: $sombra-secundaria;}
+        .bg-gray{background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(34,34,34,0.719) 100%);box-shadow: $sombra-secundaria;}
     }  
 }
