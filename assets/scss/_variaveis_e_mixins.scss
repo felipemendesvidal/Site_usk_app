@@ -4,6 +4,7 @@ $cor_principal_clara: #FCD800; // amarelo claro
 $cor_principal_escuro: #8C7503;// amarelo escuro
 $cor_links_claro: #353535;
 $cor_fundo_quebra: #e5e5e5;
+$cor_quebra_mais_claro: #f5f5f5;
 $gradiente-separador:linear-gradient(90deg, rgba(229,229,229,1) 46%, rgba(255,255,255,0.6979166666666667) 100%);
 
 $cor_usk-soldas:#F71A12;
@@ -17,5 +18,5 @@ $curvatura-icones: 8px;
 $tipografia-principal: 'Montserrat', sans-serif;
 
 //sobras
-$sombra-padrao: 0px 0px 8px rgba(0, 0, 0, 0.445);
+$sombra-padrao: 0 6px 14px -6px rgba(24, 39, 75, 0.12), 0 10px 32px -4px rgba(24, 39, 75, 0.247);
 $sombra-secundaria: -3px 0px  8px rgba(0, 0, 0, 0.527);

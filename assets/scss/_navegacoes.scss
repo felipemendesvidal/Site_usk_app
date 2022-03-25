@@ -7,8 +7,18 @@
 .config-navegacao-principal-items{
     display: flex;flex-wrap: wrap;margin: 0 auto;justify-content: flex-start;align-items: center;
 
-    li{ margin: 10px; max-width: 400px; min-height: 220px; text-align: center; border-radius: $curvatura-icones; box-shadow: $sombra-padrao; 
-    background-color: #fff; }
+    li{ 
+        margin: 10px; max-width: 400px; min-height: 220px; text-align: center; border-radius: $curvatura-icones; box-shadow: $sombra-padrao; 
+            transition: 0.5s;
+            background-color: #fff; 
+        &:hover{
+            background-color: #c2c2c2; 
+            transition: 0.9s;
+
+        }
+
+
+    }
     img{ max-width: 150px;  display: block; margin: 0 auto; margin: 20px;}
 
     a{
@@ -29,5 +39,8 @@
         .bg-pneumaticas{background: linear-gradient(90deg, rgba(19,122,69,1) 0%, rgba(19,122,69,0.719) 100%);box-shadow: $sombra-secundaria;}
         .bg-bombas{background: linear-gradient(90deg, rgba(29,49,135,1) 0%, rgba(31,58,140,0.719) 100%);box-shadow: $sombra-secundaria;}
         .bg-gray{background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(34,34,34,0.719) 100%);box-shadow: $sombra-secundaria;}
-    }  
+
+    } 
+    
+   
 }
