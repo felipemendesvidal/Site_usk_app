@@ -16,8 +16,9 @@
 // header chamada princiapl
 .config-chamada{
     padding: 30px 0; text-align: center;
-    width: 80%; background:linear-gradient(90deg, rgba(229,229,229,1) 0%, rgba(240,240,240,1) 25%, rgba(240,240,240,1) 74%, rgba(229,229,229,1) 100%);margin: 0px auto;
+    width: 100%; background:linear-gradient(90deg, rgba(229,229,229,1) 0%, rgba(240,240,240,1) 25%, rgba(240,240,240,1) 74%, rgba(229,229,229,1) 100%);margin: 0px auto;
     h4{font-size: 2rem;}
     small{font-size: 1.3rem;}
 }
 .config-bg-2{background-color: $cor_quebra_mais_claro;}
+.config-bg-3{background:linear-gradient(253deg, rgba(15,95,166,0.719) 0%, rgba(15,95,166,1) 100%);  color: #fff; }
