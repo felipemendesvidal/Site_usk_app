@@ -1,4 +1,4 @@
-@media (max-width:900px){
+@media (max-width:1024px){
     #nav #menu{
         display: block;
         background:linear-gradient(90deg, rgba(229,229,229,1) 0%, rgba(240,240,240,1) 25%, rgba(240,240,240,1) 74%, rgba(229,229,229,1) 100%);
@@ -13,7 +13,7 @@
         visibility: hidden;
         overflow-y: hidden;
     }
-    #nav #menu li a{ color: #222;}
+    #nav #menu li a{ color: #222;background-color:transparent}
     #nav #menu li:hover{border-bottom: 2px solid #f5f5f5;}
     #nav.active #menu{ 
         height: 260px;
@@ -35,7 +35,7 @@
     .logo{width: 200px;}
     #nav #menu{ top: 380px; }
     .config-cabecalho{flex-direction: column;}
-    .config-txt-cabecalho{min-width: 100%; width: 100%; background-color: rebeccapurple;}
+    .config-txt-cabecalho{min-width: 100%; width: 100%; margin-top: 20px;}
     .config-txt-cabecalho p{ width: 100%; }
 
 
@@ -48,7 +48,7 @@
     #nav #menu{ top: 420px; }
 }
 @media (max-width:447px){
-    .config-cabecalho {display: none;}
+    .ak-none {display: none;}
     #nav #menu{ top: 200px; }
     .config-chamada small {font-size: 0.9rem;}
 }

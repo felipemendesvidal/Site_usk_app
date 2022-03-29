@@ -43,9 +43,11 @@
    
 }
 // ak teck navegação interna
-#nav{ display: flex; justify-content: space-between; padding: 30px;}
+#nav{ display: flex; justify-content: space-between; padding: 30px; align-items: center;}
 #btn-mobile{display: none;}
 
 #nav #menu{padding: 10px 20px; display: flex; justify-content: space-evenly; flex-wrap: wrap; gap: 0.5rem; }
-#nav #menu a{ display: block; padding: 0.5rem;}
+#nav #menu a{ display: block; padding: 0.4rem; color: #222; transition: 0.2s; background-color: rgb(207, 207, 207); border-radius: $curvatura-icones;}
+#nav #menu a:hover{ color: rgb(112, 112, 112); }
+
 
