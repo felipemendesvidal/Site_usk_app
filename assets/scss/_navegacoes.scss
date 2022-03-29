@@ -42,3 +42,10 @@
     }  
    
 }
+// ak teck navegação interna
+#nav{ display: flex; justify-content: space-between; padding: 30px;}
+#btn-mobile{display: none;}
+
+#nav #menu{padding: 10px 20px; display: flex; justify-content: space-evenly; flex-wrap: wrap; gap: 0.5rem; }
+#nav #menu a{ display: block; padding: 0.5rem;}
+

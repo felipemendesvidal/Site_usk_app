@@ -16,7 +16,7 @@
     <!-- cabeçalho -->
     <header class="config-cabecalho">
         <!-- logo -->
-        <a href="index.html"><img src="assets/img/logos/logo_amarelo.png" alt="logo amarelo escrito USK"></a>
+        <a href="index.html"><img src="assets/img/logos/logo_amarelo.png" alt="logo amarelo escrito USK" class="logo"></a>
         <div class="config-txt-cabecalho">
             <p>
                 A USK atua em 3 principais segmentos do setor de maquinários, oferecendo mais de 70 produtos, divididos em três distintas marcas. Dessa forma, cada consumidor pode escolher a ferramenta que mais se adapta ao seu dia a dia
@@ -30,16 +30,20 @@
         <small>Inversoras, TIG/MMA, MIG, Corte Plasma</small>
     </div>
 
-    <nav class="navegacao-interna">
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Maquinas AK TECH</a></li>
-            <li><a href="#">Maquinas USK</a></li>
-            <li><a href="#">Compressores</a></li>
-            <li><a href="#">Ferramentas</a></li>
-            <li><a href="#">Pneumáticas</a></li>
-            <li><a href="#">Bombas</a></li>
-            <li><a href="#">Assistência</a></li>
+    <nav id="nav" >
+        <a href="#" class="inicio"> Voltar inicio</a>
+        <button id="btn-mobile">
+            Menu
+            <span id="bars"></span>
+        </button>
+        <ul id = "menu">
+            <li><a href="ak-soldas.html">Maquinas AK TECH</a></li>
+            <li><a href="usk-soldas.html">Maquinas USK</a></li>
+            <li><a href="compressores.html">Compressores</a></li>
+            <li><a href="ferramentas.html">Ferramentas</a></li>
+            <li><a href="pneumaticas.html">Pneumáticas</a></li>
+            <li><a href="bombas.html">Bombas</a></li>
+            <li><a href="assistencia.html">Assistência</a></li>
         </ul>
     </nav>
 
@@ -83,5 +87,7 @@
     <footer class="config-footer">
         <p>&copy; Totos os direitos reservados | 2022 | Desenvolvido por <a href="https://felipevidalmendes.com" target ="_blank">Felipe Vidal</a></p>
     </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
