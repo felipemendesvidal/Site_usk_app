@@ -30,6 +30,31 @@
     #nav.active #bars::after {transform: rotate(-135deg); top: -7px;}
 
 
+
+}
+@media (max-width:890px){
+    .box_img{
+        width: 100%;
+        img{
+            width: 50%;
+            margin: 0 auto;
+            overflow-y: auto;
+            opacity: 0;
+        }
+        
+        .btn{
+           color: #fff;
+           position: absolute;
+           width: 50px;
+           height: 50px;
+           font-size: 2rem;
+           text-align: center;
+        }
+        #close{right: 20px; top: 20px;}
+        #prev{left: 5%; top: 45%;}
+        #next{right: 5%; top: 45%;}
+    }
+
 }
 @media (max-width:823px){
     .logo{width: 200px;}
