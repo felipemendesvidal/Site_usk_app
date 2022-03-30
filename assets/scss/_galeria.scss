@@ -1,6 +1,8 @@
 .config-bg h3{text-align: center;}
-.container{position: relative;}
-.image-container{
+.config-bg-2 h3{text-align: center;}
+.container{position: relative;} // wrapperr
+
+.image-container{ //galery
     display: flex; flex-wrap: wrap; gap: 1rem;  padding: 20px;
     margin: 0 auto;
 
