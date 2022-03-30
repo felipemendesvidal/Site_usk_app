@@ -32,36 +32,20 @@
 
 
 }
-@media (max-width:890px){
-    .box_img{
-        width: 100%;
-        img{
-            width: 50%;
-            margin: 0 auto;
-            overflow-y: auto;
-            opacity: 0;
-        }
-        
-        .btn{
-           color: #fff;
-           position: absolute;
-           width: 50px;
-           height: 50px;
-           font-size: 2rem;
-           text-align: center;
-        }
-        #close{right: 20px; top: 20px;}
-        #prev{left: 5%; top: 45%;}
-        #next{right: 5%; top: 45%;}
-    }
 
-}
 @media (max-width:823px){
     .logo{width: 200px;}
     #nav #menu{ top: 380px; }
     .config-cabecalho{flex-direction: column;}
     .config-txt-cabecalho{min-width: 100%; width: 100%; margin-top: 20px;}
     .config-txt-cabecalho p{ width: 100%; }
+    .popup-image{
+    
+        
+        span{z-index: 1003;right: 10px; top: 10px;}
+        img{ width: 90%; top: 10px; left: 10px;}
+    
+    }
 
 
 }
@@ -76,5 +60,6 @@
     .ak-none {display: none;}
     #nav #menu{ top: 200px; }
     .config-chamada small {font-size: 0.9rem;}
+   
 }
 
